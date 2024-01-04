@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="450dp"
+        android:layout_height="4000dp"
+        android:layout_marginTop="-545dp"
+        app:srcCompat="@drawable/rectangle921" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="500dp"
+        app:srcCompat="@drawable/rectangle921"
+        android:layout_height="200dp"
+        android:layout_marginTop="640dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Account"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/group"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="110dp"
+        />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="110dp"
+        android:text="Account"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="167dp"
+        android:text="Order"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="225dp"
+        android:text="Adress"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="285dp"
+        android:text="Payment"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="695dp"
+        android:text="Home"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="695dp"
+        android:text="Explore"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="695dp"
+        android:text="Cari"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="695dp"
+        android:text="Offer"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="695dp"
+        android:text="Account"
+        android:textSize="18dp"
+        />
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/order"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="168dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/address"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="225dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/bayar1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="285dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/bayar2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/vector"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="665dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/offer2"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="662dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="5dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="662dp"
+        app:srcCompat="@drawable/offer1" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="68dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/cari"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="658dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="68dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/search"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="660dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="68dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/home"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="658dp"
+        />
+
+
+
+</RelativeLayout>
+
+

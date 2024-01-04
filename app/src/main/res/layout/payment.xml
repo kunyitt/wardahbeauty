@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="450dp"
+        android:layout_height="1300dp"
+        app:srcCompat="@drawable/rectangle921"
+        android:layout_marginTop="240dp"
+        />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembayaran Berhasil"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/froup7024"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="130dp"
+        />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 88.500"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terima kasih telah berbelanja\nPesanan akan segera dikirim"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:text="Back Shopping"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="450dp"
+        android:layout_height="1300dp"
+        android:layout_marginTop="-545dp"
+        app:srcCompat="@drawable/rectangle921" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frame5"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="325dp"
+        android:layout_height="1120dp"
+        android:layout_marginTop="-380dp"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/m2" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group19"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="360dp"/>
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector1"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="370dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bintang"
+        android:layout_marginTop="353dp"
+        android:layout_marginLeft="285dp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:text="PERFECT BRIGHT NIGHT MOISTURIZER\nBRIGHT + NIGHT GLLOW"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:text="PERFECT BRIGHT"
+        android:textSize="13dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="445dp"
+        android:text="Price"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:text="Rp.30.500"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:text="Details"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="23dp"
+        app:backgroundTint="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:text="How to Aplly"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="152dp"
+        app:backgroundTint="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:text="Ingridients"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="280dp"
+        app:backgroundTint="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="540dp"
+        android:text="Wardah Perfect Bright + Night Glow Moisturizer 20 ml"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="555dp"
+        android:text="Night moisturizer pencerah yang memberikan hidrasi dan \nmenutrisi kulit pada malam hari, untuk kulit lebih cerah,\nglowing ternutrisi di pagi hari!"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="190dp"
+        android:layout_height="39dp"
+        android:text="Add to Cart"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="112dp"
+        app:backgroundTint="#FFFFFF"
+        />
+</RelativeLayout>
+
+
